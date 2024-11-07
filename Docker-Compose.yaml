@@ -6,6 +6,7 @@ services:
     container_name: mysql-8.3.0-bbt3104-lab5
     restart: always
     ports:
+    
       - 3307:3306
     environment:
       MYSQL_ROOT_PASSWORD: 5trathm0re
